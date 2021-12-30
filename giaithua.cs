@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace vonglap
+namespace giaithua
 {
     class Program { 
         /// <summary>

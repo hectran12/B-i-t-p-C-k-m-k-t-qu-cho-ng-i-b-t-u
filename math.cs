@@ -15,6 +15,9 @@ namespace thuvienmath
             int tinhtoan;
             Console.WriteLine("Căn bậc 2 của {0} là {1}", cb2, Math.Sqrt(cb2));
         }
+        /// <summary>
+        /// Hàm tính lũy thừa
+        /// </summary>
         static void LuyThua()
         {
             Console.WriteLine("Nhập số thứ 1: ");
@@ -24,6 +27,9 @@ namespace thuvienmath
             b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Lũy thừa của 2 số {0} và {1} là {2} ", a, b, Math.Pow(a, b));
         }
+        /// <summary>
+        /// Hàm tính lưỡng giác
+        /// </summary>
         static void LuongGiac()
         {
             Console.WriteLine("Nhập vào một gốc: ");
@@ -60,6 +66,9 @@ namespace thuvienmath
             }
 
         }
+        /// <summary>
+        /// Hàm làm tròn 
+        /// </summary>
         static void LamTron()
         {
             Console.WriteLine("Nhập 1 sô muốn làm tròn: ");

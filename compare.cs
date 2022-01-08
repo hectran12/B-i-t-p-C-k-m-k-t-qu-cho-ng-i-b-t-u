@@ -11,12 +11,15 @@ namespace compare
             a = Convert.ToString(Console.ReadLine());
             Console.Write("Input B: ");
             b = Convert.ToString(Console.ReadLine());
-            result = a.CompareTo(b);
+            result = a.ToLower().CompareTo(b.ToLower());
             if (result == 0)
             {
                 Console.Write("there is a similarity");
             }
-            else
+            else if(result > 0)
+            {
+                Console.Write("there is bigger then");
+            } else
             {
                 Console.Write("there is no similarity");
             }

@@ -1,6 +1,6 @@
 using System;
 using System.Text;
-namespace format
+namallcharallchar
 {
     class Program 
     {
